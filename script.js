@@ -4,7 +4,7 @@ function dinner () {
     let smthStrange = prompt ("Something Strange");
     let adj = prompt ("Adjective");
     let animal = prompt ("Animal");
-    let veb = prompt ("Verb");
+    let verb = prompt ("Verb");
     let obj = prompt ("Object");
     let funQuote1 = prompt("A Funny Quote");
     let funQuote2 = prompt("Another Funny Quote");
@@ -36,7 +36,7 @@ function mystery () {
   `;
    }
 
-   function travel () {
+function travel () {
     let histFig = prompt("A Historical Figure");
     let place = prompt("A Place in Time");
     let obj = prompt("A Object");
@@ -47,9 +47,9 @@ function mystery () {
     let silName = prompt("A Silly Name");
     let adj2 = prompt("Adjective");
     document.getElementById("output").innerHTML = `
-<p>Your time machine malfunctions, and a ${histFig} steals your homework escaping to ${place}!
+    <p>Your time machine malfunctions, and a ${histFig} steals your homework escaping to ${place}!
     Armed with a ${obj}, you chase them through time, dodging ${pluNoun} and a ${adj1} dinosaur trying to ${verb} you.
     You finally catch the thief at the ${histPlace} and grab your homework just time.
     Back in class, your teacher, ${silName}, says, "That's the most ${adj2} excuse ever!" But hey, you got an A!</p>
     `;
-   }
+    }
